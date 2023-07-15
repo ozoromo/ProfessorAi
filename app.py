@@ -1,7 +1,7 @@
 import gradio as gr
 
 
-
+model = "gpt-3.5-turbo"
 
 llm = ChatOpenAI(temperature=0, openai_api_key=OPENAI_API_KEY, model=model)
 
